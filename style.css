@@ -31,14 +31,22 @@ body{
     padding: 2rem;
 }
 
+h2{
+    text-align: center;
+    padding: 1rem;
+}
+
 ul{
-    list-style: none;
+    list-style-type: none;
     padding: 0;
 }
 
 ul li{
     margin: 1rem 0;
     font-size: 1.1rem;
+}
+ul li label{
+    cursor: pointer;
 }
 
 button{
